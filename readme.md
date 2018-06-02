@@ -6,7 +6,7 @@ This article about handling static jsp resources into fat jar with Spring boot a
 
 Firstly, you should create Spring Boot project. [SPRING INITIALIZR](http://start.spring.io) is convenient service to create project. Select maven project with java and spring boot 2.0.2 and add spring boot starter web dependency. And click to generate project 
 
-Futher,  open new project in your favorite IDE.
+Further,  open new project in your favorite IDE.
 
 I use embedded Tomcat as Java Servlet Container which ships with spring boot starter web. Tomcat require some dependency to render jsp view. Add this dependency to pom.xml:
 
