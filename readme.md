@@ -8,7 +8,7 @@ Firstly, you should create Spring Boot project. [SPRING INITIALIZR](http://start
 
 Further,  open new project in your favorite IDE.
 
-I use embedded Tomcat as Java Servlet Container which ships with spring boot starter web. Tomcat require some dependency to render jsp view. Add this dependency to pom.xml:
+I use embedded Tomcat as Java Servlet Container which ships with spring boot starter web. Tomcat require some dependencies to render jsp view. Add this dependencies to pom.xml:
 
    		<!-- JSP support in Tomcat-->
 		<dependency>
